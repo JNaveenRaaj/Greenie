@@ -1,0 +1,32 @@
+.profile{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.usertable{
+    text-align: center;
+    background-color: #afa7a7;
+    margin: 5% 30%;
+    margin-left: 40%;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.user-content{
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+}
+
+@media (max-width: 780px){
+    .profile{
+        width: 90px;
+    }
+}
+
+@media (max-width: 450px){
+    .profile{
+        width: 50px;
+    }
+}
